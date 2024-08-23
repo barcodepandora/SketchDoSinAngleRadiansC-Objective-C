@@ -18,6 +18,14 @@
 		562024602C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620245F2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m */; };
 		562024622C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562024612C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m */; };
 		5620247A2C78F11900CFE4C0 /* doSin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 562024782C78F11900CFE4C0 /* doSin.cpp */; };
+		56A350192C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A350182C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatchApp.swift */; };
+		56A3501B2C79283E00F6B12F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3501A2C79283E00F6B12F /* ContentView.swift */; };
+		56A3501D2C79284100F6B12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A3501C2C79284100F6B12F /* Assets.xcassets */; };
+		56A350202C79284100F6B12F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A3501F2C79284100F6B12F /* Preview Assets.xcassets */; };
+		56A3502A2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A350292C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppTests.swift */; };
+		56A350342C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A350332C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITests.swift */; };
+		56A350362C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A350352C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITestsLaunchTests.swift */; };
+		56A350392C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 56A350162C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,42 @@
 			remoteGlobalIDString = 562024352C78E32900CFE4C0;
 			remoteInfo = SketchDoSinAngleRadians;
 		};
+		56A350262C79284100F6B12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5620242E2C78E32900CFE4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56A350152C79283E00F6B12F;
+			remoteInfo = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+		};
+		56A350302C79284100F6B12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5620242E2C78E32900CFE4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56A350152C79283E00F6B12F;
+			remoteInfo = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+		};
+		56A350372C79284100F6B12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5620242E2C78E32900CFE4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56A350152C79283E00F6B12F;
+			remoteInfo = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56A3503A2C79284100F6B12F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				56A350392C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		562024362C78E32900CFE4C0 /* SketchDoSinAngleRadians.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchDoSinAngleRadians.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +101,16 @@
 		562024782C78F11900CFE4C0 /* doSin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doSin.cpp; sourceTree = "<group>"; };
 		562024792C78F11900CFE4C0 /* doSin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSin.h; sourceTree = "<group>"; };
 		5620247B2C78F42200CFE4C0 /* DoSin-Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoSin-Prefix.h"; sourceTree = "<group>"; };
+		56A350162C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SketchDoSinAngleRadiansForAppleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A350182C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDoSinAngleRadiansForAppleWatchApp.swift; sourceTree = "<group>"; };
+		56A3501A2C79283E00F6B12F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56A3501C2C79284100F6B12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56A3501F2C79284100F6B12F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56A350252C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SketchDoSinAngleRadiansForAppleWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A350292C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDoSinAngleRadiansForAppleWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		56A3502F2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SketchDoSinAngleRadiansForAppleWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A350332C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		56A350352C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +135,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56A350132C79283E00F6B12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A350222C79284100F6B12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A3502C2C79284100F6B12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +165,9 @@
 				562024382C78E32900CFE4C0 /* SketchDoSinAngleRadians */,
 				562024542C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests */,
 				5620245E2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests */,
+				56A350172C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */,
+				56A350282C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests */,
+				56A350322C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests */,
 				562024372C78E32900CFE4C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +178,9 @@
 				562024362C78E32900CFE4C0 /* SketchDoSinAngleRadians.app */,
 				562024512C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.xctest */,
 				5620245B2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.xctest */,
+				56A350162C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App.app */,
+				56A350252C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests.xctest */,
+				56A3502F2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +223,42 @@
 			path = SketchDoSinAngleRadiansUITests;
 			sourceTree = "<group>";
 		};
+		56A350172C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				56A350182C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatchApp.swift */,
+				56A3501A2C79283E00F6B12F /* ContentView.swift */,
+				56A3501C2C79284100F6B12F /* Assets.xcassets */,
+				56A3501E2C79284100F6B12F /* Preview Content */,
+			);
+			path = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+			sourceTree = "<group>";
+		};
+		56A3501E2C79284100F6B12F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56A3501F2C79284100F6B12F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56A350282C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56A350292C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppTests.swift */,
+			);
+			path = "SketchDoSinAngleRadiansForAppleWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		56A350322C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56A350332C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITests.swift */,
+				56A350352C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SketchDoSinAngleRadiansForAppleWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,10 +269,12 @@
 				562024322C78E32900CFE4C0 /* Sources */,
 				562024332C78E32900CFE4C0 /* Frameworks */,
 				562024342C78E32900CFE4C0 /* Resources */,
+				56A3503A2C79284100F6B12F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				56A350382C79284100F6B12F /* PBXTargetDependency */,
 			);
 			name = SketchDoSinAngleRadians;
 			productName = SketchDoSinAngleRadians;
@@ -199,6 +317,59 @@
 			productReference = 5620245B2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		56A350152C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A350412C79284100F6B12F /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansForAppleWatch Watch App" */;
+			buildPhases = (
+				56A350122C79283E00F6B12F /* Sources */,
+				56A350132C79283E00F6B12F /* Frameworks */,
+				56A350142C79283E00F6B12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+			productName = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+			productReference = 56A350162C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56A350242C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A350422C79284100F6B12F /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansForAppleWatch Watch AppTests" */;
+			buildPhases = (
+				56A350212C79284100F6B12F /* Sources */,
+				56A350222C79284100F6B12F /* Frameworks */,
+				56A350232C79284100F6B12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56A350272C79284100F6B12F /* PBXTargetDependency */,
+			);
+			name = "SketchDoSinAngleRadiansForAppleWatch Watch AppTests";
+			productName = "SketchDoSinAngleRadiansForAppleWatch Watch AppTests";
+			productReference = 56A350252C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56A3502E2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A350432C79284100F6B12F /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansForAppleWatch Watch AppUITests" */;
+			buildPhases = (
+				56A3502B2C79284100F6B12F /* Sources */,
+				56A3502C2C79284100F6B12F /* Frameworks */,
+				56A3502D2C79284100F6B12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56A350312C79284100F6B12F /* PBXTargetDependency */,
+			);
+			name = "SketchDoSinAngleRadiansForAppleWatch Watch AppUITests";
+			productName = "SketchDoSinAngleRadiansForAppleWatch Watch AppUITests";
+			productReference = 56A3502F2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +377,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					562024352C78E32900CFE4C0 = {
@@ -218,6 +390,17 @@
 					5620245A2C78E32E00CFE4C0 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 562024352C78E32900CFE4C0;
+					};
+					56A350152C79283E00F6B12F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					56A350242C79284100F6B12F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 56A350152C79283E00F6B12F;
+					};
+					56A3502E2C79284100F6B12F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 56A350152C79283E00F6B12F;
 					};
 				};
 			};
@@ -237,6 +420,9 @@
 				562024352C78E32900CFE4C0 /* SketchDoSinAngleRadians */,
 				562024502C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests */,
 				5620245A2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests */,
+				56A350152C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */,
+				56A350242C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppTests */,
+				56A3502E2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +446,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		562024592C78E32E00CFE4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A350142C79283E00F6B12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A350202C79284100F6B12F /* Preview Assets.xcassets in Resources */,
+				56A3501D2C79284100F6B12F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A350232C79284100F6B12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A3502D2C79284100F6B12F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,6 +507,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56A350122C79283E00F6B12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A3501B2C79283E00F6B12F /* ContentView.swift in Sources */,
+				56A350192C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A350212C79284100F6B12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A3502A2C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A3502B2C79284100F6B12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A350362C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				56A350342C79284100F6B12F /* SketchDoSinAngleRadiansForAppleWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,6 +545,21 @@
 			isa = PBXTargetDependency;
 			target = 562024352C78E32900CFE4C0 /* SketchDoSinAngleRadians */;
 			targetProxy = 5620245C2C78E32E00CFE4C0 /* PBXContainerItemProxy */;
+		};
+		56A350272C79284100F6B12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56A350152C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */;
+			targetProxy = 56A350262C79284100F6B12F /* PBXContainerItemProxy */;
+		};
+		56A350312C79284100F6B12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56A350152C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */;
+			targetProxy = 56A350302C79284100F6B12F /* PBXContainerItemProxy */;
+		};
+		56A350382C79284100F6B12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56A350152C79283E00F6B12F /* SketchDoSinAngleRadiansForAppleWatch Watch App */;
+			targetProxy = 56A350372C79284100F6B12F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -452,6 +702,7 @@
 		562024662C78E32E00CFE4C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +733,7 @@
 		562024672C78E32E00CFE4C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +829,157 @@
 			};
 			name = Release;
 		};
+		56A3503B2C79284100F6B12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SketchDoSinAngleRadiansForAppleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SketchDoSinAngleRadiansForAppleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadians;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadians.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		56A3503C2C79284100F6B12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SketchDoSinAngleRadiansForAppleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SketchDoSinAngleRadiansForAppleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadians;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadians.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		56A3503D2C79284100F6B12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uzupis.SketchDoSinAngleRadiansForAppleWatch.SketchDoSinAngleRadiansForAppleWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchDoSinAngleRadiansForAppleWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SketchDoSinAngleRadiansForAppleWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		56A3503E2C79284100F6B12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uzupis.SketchDoSinAngleRadiansForAppleWatch.SketchDoSinAngleRadiansForAppleWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchDoSinAngleRadiansForAppleWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SketchDoSinAngleRadiansForAppleWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		56A3503F2C79284100F6B12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uzupis.SketchDoSinAngleRadiansForAppleWatch.SketchDoSinAngleRadiansForAppleWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		56A350402C79284100F6B12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uzupis.SketchDoSinAngleRadiansForAppleWatch.SketchDoSinAngleRadiansForAppleWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SketchDoSinAngleRadiansForAppleWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,6 +1015,33 @@
 			buildConfigurations = (
 				5620246C2C78E32E00CFE4C0 /* Debug */,
 				5620246D2C78E32E00CFE4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A350412C79284100F6B12F /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansForAppleWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A3503B2C79284100F6B12F /* Debug */,
+				56A3503C2C79284100F6B12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A350422C79284100F6B12F /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansForAppleWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A3503D2C79284100F6B12F /* Debug */,
+				56A3503E2C79284100F6B12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A350432C79284100F6B12F /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansForAppleWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A3503F2C79284100F6B12F /* Debug */,
+				56A350402C79284100F6B12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
