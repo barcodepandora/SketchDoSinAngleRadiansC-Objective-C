@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5620243B2C78E32900CFE4C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620243A2C78E32900CFE4C0 /* AppDelegate.m */; };
+		5620243E2C78E32900CFE4C0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620243D2C78E32900CFE4C0 /* SceneDelegate.m */; };
+		562024412C78E32900CFE4C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562024402C78E32900CFE4C0 /* ViewController.m */; };
+		562024442C78E32900CFE4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562024422C78E32900CFE4C0 /* Main.storyboard */; };
+		562024462C78E32E00CFE4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562024452C78E32E00CFE4C0 /* Assets.xcassets */; };
+		562024492C78E32E00CFE4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562024472C78E32E00CFE4C0 /* LaunchScreen.storyboard */; };
+		5620244C2C78E32E00CFE4C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620244B2C78E32E00CFE4C0 /* main.m */; };
+		562024562C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562024552C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.m */; };
+		562024602C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620245F2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m */; };
+		562024622C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562024612C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m */; };
+		5620247A2C78F11900CFE4C0 /* doSin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 562024782C78F11900CFE4C0 /* doSin.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562024522C78E32E00CFE4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5620242E2C78E32900CFE4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562024352C78E32900CFE4C0;
+			remoteInfo = SketchDoSinAngleRadians;
+		};
+		5620245C2C78E32E00CFE4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5620242E2C78E32900CFE4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562024352C78E32900CFE4C0;
+			remoteInfo = SketchDoSinAngleRadians;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562024362C78E32900CFE4C0 /* SketchDoSinAngleRadians.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchDoSinAngleRadians.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562024392C78E32900CFE4C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5620243A2C78E32900CFE4C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5620243C2C78E32900CFE4C0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5620243D2C78E32900CFE4C0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5620243F2C78E32900CFE4C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		562024402C78E32900CFE4C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		562024432C78E32900CFE4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562024452C78E32E00CFE4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562024482C78E32E00CFE4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5620244A2C78E32E00CFE4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5620244B2C78E32E00CFE4C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		562024512C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchDoSinAngleRadiansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562024552C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchDoSinAngleRadiansTests.m; sourceTree = "<group>"; };
+		5620245B2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchDoSinAngleRadiansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5620245F2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchDoSinAngleRadiansUITests.m; sourceTree = "<group>"; };
+		562024612C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchDoSinAngleRadiansUITestsLaunchTests.m; sourceTree = "<group>"; };
+		562024782C78F11900CFE4C0 /* doSin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doSin.cpp; sourceTree = "<group>"; };
+		562024792C78F11900CFE4C0 /* doSin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSin.h; sourceTree = "<group>"; };
+		5620247B2C78F42200CFE4C0 /* DoSin-Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoSin-Prefix.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562024332C78E32900CFE4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5620244E2C78E32E00CFE4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562024582C78E32E00CFE4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5620242D2C78E32900CFE4C0 = {
+			isa = PBXGroup;
+			children = (
+				562024382C78E32900CFE4C0 /* SketchDoSinAngleRadians */,
+				562024542C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests */,
+				5620245E2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests */,
+				562024372C78E32900CFE4C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562024372C78E32900CFE4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562024362C78E32900CFE4C0 /* SketchDoSinAngleRadians.app */,
+				562024512C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.xctest */,
+				5620245B2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562024382C78E32900CFE4C0 /* SketchDoSinAngleRadians */ = {
+			isa = PBXGroup;
+			children = (
+				562024782C78F11900CFE4C0 /* doSin.cpp */,
+				562024792C78F11900CFE4C0 /* doSin.h */,
+				5620247B2C78F42200CFE4C0 /* DoSin-Prefix.h */,
+				562024392C78E32900CFE4C0 /* AppDelegate.h */,
+				5620243A2C78E32900CFE4C0 /* AppDelegate.m */,
+				5620243C2C78E32900CFE4C0 /* SceneDelegate.h */,
+				5620243D2C78E32900CFE4C0 /* SceneDelegate.m */,
+				5620243F2C78E32900CFE4C0 /* ViewController.h */,
+				562024402C78E32900CFE4C0 /* ViewController.m */,
+				562024422C78E32900CFE4C0 /* Main.storyboard */,
+				562024452C78E32E00CFE4C0 /* Assets.xcassets */,
+				562024472C78E32E00CFE4C0 /* LaunchScreen.storyboard */,
+				5620244A2C78E32E00CFE4C0 /* Info.plist */,
+				5620244B2C78E32E00CFE4C0 /* main.m */,
+			);
+			path = SketchDoSinAngleRadians;
+			sourceTree = "<group>";
+		};
+		562024542C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests */ = {
+			isa = PBXGroup;
+			children = (
+				562024552C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.m */,
+			);
+			path = SketchDoSinAngleRadiansTests;
+			sourceTree = "<group>";
+		};
+		5620245E2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5620245F2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m */,
+				562024612C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m */,
+			);
+			path = SketchDoSinAngleRadiansUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562024352C78E32900CFE4C0 /* SketchDoSinAngleRadians */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562024652C78E32E00CFE4C0 /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadians" */;
+			buildPhases = (
+				562024322C78E32900CFE4C0 /* Sources */,
+				562024332C78E32900CFE4C0 /* Frameworks */,
+				562024342C78E32900CFE4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchDoSinAngleRadians;
+			productName = SketchDoSinAngleRadians;
+			productReference = 562024362C78E32900CFE4C0 /* SketchDoSinAngleRadians.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562024502C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562024682C78E32E00CFE4C0 /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansTests" */;
+			buildPhases = (
+				5620244D2C78E32E00CFE4C0 /* Sources */,
+				5620244E2C78E32E00CFE4C0 /* Frameworks */,
+				5620244F2C78E32E00CFE4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562024532C78E32E00CFE4C0 /* PBXTargetDependency */,
+			);
+			name = SketchDoSinAngleRadiansTests;
+			productName = SketchDoSinAngleRadiansTests;
+			productReference = 562024512C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5620245A2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5620246B2C78E32E00CFE4C0 /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansUITests" */;
+			buildPhases = (
+				562024572C78E32E00CFE4C0 /* Sources */,
+				562024582C78E32E00CFE4C0 /* Frameworks */,
+				562024592C78E32E00CFE4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5620245D2C78E32E00CFE4C0 /* PBXTargetDependency */,
+			);
+			name = SketchDoSinAngleRadiansUITests;
+			productName = SketchDoSinAngleRadiansUITests;
+			productReference = 5620245B2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5620242E2C78E32900CFE4C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					562024352C78E32900CFE4C0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					562024502C78E32E00CFE4C0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 562024352C78E32900CFE4C0;
+					};
+					5620245A2C78E32E00CFE4C0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 562024352C78E32900CFE4C0;
+					};
+				};
+			};
+			buildConfigurationList = 562024312C78E32900CFE4C0 /* Build configuration list for PBXProject "SketchDoSinAngleRadians" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5620242D2C78E32900CFE4C0;
+			productRefGroup = 562024372C78E32900CFE4C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562024352C78E32900CFE4C0 /* SketchDoSinAngleRadians */,
+				562024502C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests */,
+				5620245A2C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562024342C78E32900CFE4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562024492C78E32E00CFE4C0 /* LaunchScreen.storyboard in Resources */,
+				562024462C78E32E00CFE4C0 /* Assets.xcassets in Resources */,
+				562024442C78E32900CFE4C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5620244F2C78E32E00CFE4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562024592C78E32E00CFE4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562024322C78E32900CFE4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5620247A2C78F11900CFE4C0 /* doSin.cpp in Sources */,
+				562024412C78E32900CFE4C0 /* ViewController.m in Sources */,
+				5620243B2C78E32900CFE4C0 /* AppDelegate.m in Sources */,
+				5620244C2C78E32E00CFE4C0 /* main.m in Sources */,
+				5620243E2C78E32900CFE4C0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5620244D2C78E32E00CFE4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562024562C78E32E00CFE4C0 /* SketchDoSinAngleRadiansTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562024572C78E32E00CFE4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562024602C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITests.m in Sources */,
+				562024622C78E32E00CFE4C0 /* SketchDoSinAngleRadiansUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562024532C78E32E00CFE4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562024352C78E32900CFE4C0 /* SketchDoSinAngleRadians */;
+			targetProxy = 562024522C78E32E00CFE4C0 /* PBXContainerItemProxy */;
+		};
+		5620245D2C78E32E00CFE4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562024352C78E32900CFE4C0 /* SketchDoSinAngleRadians */;
+			targetProxy = 5620245C2C78E32E00CFE4C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562024422C78E32900CFE4C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562024432C78E32900CFE4C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		562024472C78E32E00CFE4C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562024482C78E32E00CFE4C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562024632C78E32E00CFE4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		562024642C78E32E00CFE4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562024662C78E32E00CFE4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GCC_PREFIX_HEADER = "SketchDoSinAngleRadians/DoSin-Prefix.h";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = SketchDoSinAngleRadians/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadians;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		562024672C78E32E00CFE4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GCC_PREFIX_HEADER = "SketchDoSinAngleRadians/DoSin-Prefix.h";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = SketchDoSinAngleRadians/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadians;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		562024692C78E32E00CFE4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadiansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchDoSinAngleRadians.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SketchDoSinAngleRadians";
+			};
+			name = Debug;
+		};
+		5620246A2C78E32E00CFE4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadiansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchDoSinAngleRadians.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SketchDoSinAngleRadians";
+			};
+			name = Release;
+		};
+		5620246C2C78E32E00CFE4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadiansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SketchDoSinAngleRadians;
+			};
+			name = Debug;
+		};
+		5620246D2C78E32E00CFE4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.SketchDoSinAngleRadians.SketchDoSinAngleRadiansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SketchDoSinAngleRadians;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562024312C78E32900CFE4C0 /* Build configuration list for PBXProject "SketchDoSinAngleRadians" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562024632C78E32E00CFE4C0 /* Debug */,
+				562024642C78E32E00CFE4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562024652C78E32E00CFE4C0 /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadians" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562024662C78E32E00CFE4C0 /* Debug */,
+				562024672C78E32E00CFE4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562024682C78E32E00CFE4C0 /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562024692C78E32E00CFE4C0 /* Debug */,
+				5620246A2C78E32E00CFE4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5620246B2C78E32E00CFE4C0 /* Build configuration list for PBXNativeTarget "SketchDoSinAngleRadiansUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5620246C2C78E32E00CFE4C0 /* Debug */,
+				5620246D2C78E32E00CFE4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5620242E2C78E32900CFE4C0 /* Project object */;
+}
